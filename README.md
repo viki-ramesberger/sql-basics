@@ -7,6 +7,7 @@ Database ER diagram:
 **Table Structure Translation:**
 
 **acquisition**
+
 Stores information about company acquisitions.
 
 - **Primary Key**: `id` – Unique acquisition identifier.
@@ -21,6 +22,7 @@ Stores information about company acquisitions.
 - `created_at`, `updated_at` – Record creation and update timestamps.
 
 **company**
+
 Contains information about startup companies.
 
 - **Primary Key**: `id` – Unique company identifier.
@@ -42,6 +44,7 @@ Contains information about startup companies.
 - `created_at`, `updated_at` – Record timestamps.
 
 **education**
+
 Stores employee education details.
 
 - **Primary Key**: id – Unique education record identifier.
@@ -52,6 +55,7 @@ Stores employee education details.
 - `created_at`, `updated_at` – Record timestamps.
 
 **fund**
+
 Contains information about venture funds.
 
 - **Primary Key**: `id` – Unique fund identifier.
@@ -66,6 +70,7 @@ Contains information about venture funds.
 - `created_at`, `updated_at` – Record timestamps.
 
 **funding_round**
+
 Stores information about investment rounds.
 
 - **Primary Key**: `id` – Unique round identifier.
@@ -79,6 +84,7 @@ Stores information about investment rounds.
 - `created_at`, `updated_at` – Record timestamps.
 
 **investment**
+
 Stores venture fund investments in startups.
 
 - **Primary Key**: `id` – Unique investment identifier.
@@ -89,6 +95,7 @@ Stores venture fund investments in startups.
 - `created_at`, `updated_at` – Record timestamps.
 
 **people**
+
 Contains startup employees' information.
 
 - **Primary Key**: `id` – Unique employee identifier.
