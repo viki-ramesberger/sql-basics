@@ -1,4 +1,4 @@
-/* ## Task 1. Count how many companies have closed.*/ 
+/* Task 1. Count how many companies have closed.*/ 
 
 SELECT COUNT(id)
 FROM company
@@ -6,6 +6,8 @@ WHERE status = 'closed';
 
 /* Task 2. Display the total amount of funds raised by news companies in the USA. Use data from the `company` table. Sort the table in descending order by `funding_total`.*/
 
+-- This query displays the total amount of funds raised by news companies in the USA.
+-- The results are ordered in descending order by the `funding_total` column.
 SELECT funding_total
 FROM company
 WHERE category_code = 'news' AND country_code = 'USA'
