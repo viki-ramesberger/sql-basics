@@ -13,9 +13,9 @@ Stores information about company acquisitions.
 - **Foreign Key**: `acquiring_company_id` – References company table, indicating the acquiring company.
 - **Foreign Key**: `acquired_company_id` – References company table, indicating the acquired company.
 - `term_code` – Payment method:
- - `cash` – Cash payment.
- - `stock` – Payment with company shares.
- - `cash_and_stock` – Mixed payment (cash + shares).
+  - `cash` – Cash payment.
+  - `stock` – Payment with company shares.
+  - `cash_and_stock` – Mixed payment (cash + shares).
 - `price_amount` – Acquisition price (USD).
 - `acquired_at` – Acquisition date.
 - `created_at`, `updated_at` – Record creation and update timestamps.
