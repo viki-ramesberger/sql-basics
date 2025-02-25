@@ -17,8 +17,14 @@ ORDER BY funding_total DESC;
 
 /* Task 5. Display all information about people whose account names (network_username) contain the substring 'money' and whose last names start with 'K'.*/
 
-/* Task 6. For each country, display the total amount of investments raised by companies registered in that country. The country can be identified by the country code. Sort the data in descending order by the amount.*/
-/* Task 7. Create a table showing the date of the funding round, as well as the minimum and maximum investment amounts raised on that date. Keep only those records where the minimum investment amount is not zero and not equal to the maximum amount.*/
+/* Task 6. For each country, display the total amount of investments raised by companies registered in that country. 
+The country can be identified by the country code. Sort the data in descending order by the amount.*/
+
+
+/* **Task 7.** Create a table showing the date of the funding round, as well as the minimum and maximum investment amounts raised on that date. 
+Keep only those records where the minimum investment amount is not zero and not equal to the maximum amount.*/
+
+
 /* Task 8. */
 /* Task 9. */
 /* Task 10. */
