@@ -13,9 +13,9 @@ Stores information about company acquisitions.
 - **Foreign Key**: `acquiring_company_id` – References company table, indicating the acquiring company.
 - **Foreign Key**: `acquired_company_id` – References company table, indicating the acquired company.
 - `term_code` – Payment method:
-- `cash` – Cash payment.
-- `stock` – Payment with company shares.
-- `cash_and_stock` – Mixed payment (cash + shares).
+ - `cash` – Cash payment.
+ - `stock` – Payment with company shares.
+ - `cash_and_stock` – Mixed payment (cash + shares).
 - `price_amount` – Acquisition price (USD).
 - `acquired_at` – Acquisition date.
 - `created_at`, `updated_at` – Record creation and update timestamps.
@@ -27,10 +27,10 @@ Contains information about startup companies.
 - `name` – Company name.
 - `category_code` – Industry category (e.g., `news`, `social`).
 - `status` – Company status:
--`acquired` – Acquired.
--`operating` – Active.
--`ipo` – Public (IPO).
--`closed` – No longer exists.
+ -`acquired` – Acquired.
+ -`operating` – Active.
+ -`ipo` – Public (IPO).
+ -`closed` – No longer exists.
 - `founded_at`, `closed_at` – Founding and closure dates.
 - `domain` – Company website domain.
 - `network_username` – Corporate network profile.
